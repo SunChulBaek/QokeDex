@@ -1,0 +1,107 @@
+
+# ==========================================
+# Qt Creator
+# ==========================================
+
+*.user
+*.user.*
+*.autosave
+*.qmlproject.user
+*.qmlproject.user.*
+.qtcreator/
+.qtcreator/
+
+# Qt Creator build configurations
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# ==========================================
+# CMake / Build
+# ==========================================
+
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# Generated build files
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.app
+*.apk
+*.aab
+*.class
+
+# ==========================================
+# Qt generated files
+# ==========================================
+
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+.qmlcache/
+.qt/
+
+# ==========================================
+# Android
+# ==========================================
+
+.gradle/
+local.properties
+.cxx/
+.externalNativeBuild/
+captures/
+output-metadata.json
+*.keystore
+*.jks
+key.properties
+
+# ==========================================
+# IDE / OS
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+
+# ==========================================
+# GitHub Actions
+# ==========================================
+
+# Keep workflow files tracked
+!.github/
+!.github/workflows/
